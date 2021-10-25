@@ -1,0 +1,42 @@
+.news__uzbekistan{
+    display: flex;
+}
+.news{
+    display: flex;
+    align-items: center;
+    max-width: 996px;
+    margin-top: 15px;
+    background-color: var(--color-gray);
+}
+.news__span{
+    display: flex;
+}
+.news__about{
+    margin-left: 8px;
+}
+
+.news__span::before{
+    display: flex;
+    content: " ";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../../image/time-icon.svg);
+}
+.news__text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    max-width: 441px;
+
+    & h1{
+        font-size: 22px;
+        line-height: 29px;
+        font-weight: 700;
+    }
+    & p{
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 500;
+    }
+}

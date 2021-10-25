@@ -1,0 +1,129 @@
+.vdeofoto {
+  display: flex;
+  margin-top: 40px;
+}
+
+.vdeonews {
+  &__header {
+    width: 658px;
+    justify-content: space-between;
+    display: flex;
+    &__doirawords {
+      display: flex;
+      align-items: center;
+      &__doira {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 4px solid #17206A;
+        margin-right: 10px;
+      }
+      &__text {
+        max-width: 159px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+
+      }
+    }
+    &__article {
+      max-width: 156px;
+      display: flex;
+      align-items: center;
+      &__text {
+        max-width: 128px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17.7px;
+        color: #17206A;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+.electrician {
+  display: flex;
+  margin-top: 20px;
+  &__mandatory {
+    margin-left: 20px;
+    &__data {
+      display: flex;
+      align-items: center;
+      p {
+        max-width: 100px;
+        font-weight: 400px;
+        font-size: 12px;
+        line-height: 14.63px;
+        color: #000000;
+        margin-right: 149px;
+      }
+      span {
+        max-width: 71px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14.63px;
+        color: #304FFF;
+      }
+    }
+    &__text {
+      max-width: 311px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      margin-top: 10px;
+    }
+  }
+}
+.electrician__mandatory:first-child {
+  margin-left: 0;
+}
+.fotonews {
+  margin-left: 20px;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.andijan {
+  max-width: 658px;
+  padding: 298px 30px 20px 30px;
+  background-image: url("./../image/kamera.png"),url("./../image/foto1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  &__text {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29.04px;
+  }
+}
+.energy {
+  max-width: 658px;
+  display: flex;
+  &__elektr1 {
+    max-width: 319px;
+    margin-top: 22px;
+    margin-left: 20px;
+    &:first-child {
+      margin-left: 0;
+    }
+    &__img {
+      width: 319px;
+      height: 196px;
+      background-image: url("./../image/kamera2.png"),url("./../image/foto2.png");
+      background-repeat: no-repeat;
+      background-size: cover cover;
+      background-position: center center;
+
+    }
+  }
+
+}
+.energy__elektr1__img2 {
+  width: 319px;
+  height: 196px;
+  background-image: url("./../image/kamera2.png"),url("./../image/foto3.png");
+  background-repeat: no-repeat;
+  background-size: cover cover;
+  background-position: center center;
+}

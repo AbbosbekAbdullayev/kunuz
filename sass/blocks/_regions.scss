@@ -1,0 +1,26 @@
+.regions{
+    display: flex;
+    margin-top: 12px;
+    background-color: #F0F0F0;
+
+}
+.regions__logo{
+    display: flex;
+    align-items: center;
+}
+.regions__list{
+    display: flex;
+
+    & hr{
+        height: 12px;
+        border: 1px solid #585858;
+    }
+}
+.regions__item{
+    margin: 0 10px 0 10px;
+    font-size: 12px;
+    line-height: 15px;
+}
+.regions__item a, .header__list a, .search__link a{
+    color: #000000;
+}

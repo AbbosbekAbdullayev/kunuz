@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+    align-items: center;
+
+    &__item{
+        display: flex;
+    }
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+.header__item{
+    margin-left: 50px;
+
+    & li:not(:first-child){ 
+        margin-left: 20px;
+    }
+}
+.search__link{
+    border-radius: 40px;
+    padding: 6px 35px 6px 14px;
+    background-color: #e7e7e7;
+    position: relative;
+    right: 8px;
+    & a{
+        text-decoration: none;
+        text-align: center;
+    }
+}
+.language{
+    position: absolute;
+    & img{
+        position: absolute;
+        top: -0.3px;
+        right: 8px;
+        width: 31px;
+    }
+}
+.languages{
+    display: flex;
+}
+

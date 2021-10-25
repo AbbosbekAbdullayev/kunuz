@@ -1,0 +1,22 @@
+.articles {
+    margin-top: 40px;
+}
+.articles__media{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.articles__text{
+    max-width: 432px;
+
+    & h4{
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+    }
+    & p{
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 500;
+    }
+}

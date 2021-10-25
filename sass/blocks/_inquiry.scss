@@ -1,0 +1,66 @@
+.inquiry {
+  max-width: 1315px;
+  margin-top: 30px;
+  &__header {
+    display: flex;
+    max-width: 200px;
+    align-items: center;
+    &__doira {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border:  4px solid #17206A;
+    }
+    &__text {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      margin-left: 10px;
+    }
+  }
+  .sardoba {
+    display: flex;
+    margin-top: 30px;
+    &__fojia {
+      max-width: 658px;
+      background-color: rgba(240, 240, 240, 1);
+      -webkit-box-shadow: 3px 35px 0px 3px rgba(240, 240, 240, 1);
+      -moz-box-shadow: 3px 35px 0px 3px rgba(240, 240, 240, 1);
+      box-shadow: 3px 35px 0px 3px rgba(240, 240, 240, 1);
+      &__text {
+        max-width: 547px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 15px;
+        background-color: rgba(240, 240, 240, 1);
+      }
+    }
+    .patients {
+      margin-left: 75px;
+      &__general {
+        display: flex;
+        align-items: center;
+        &__text {
+          max-width: 445px;
+          margin-left: 20px;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 23px;
+
+        }
+      }
+      &__generali, &__generala,&__generalb {
+        display: flex;
+        margin-top: 20px;
+        &__text {
+          max-width: 445px;
+          margin-left: 20px;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 23px;
+        }
+      }
+    }
+  }
+}

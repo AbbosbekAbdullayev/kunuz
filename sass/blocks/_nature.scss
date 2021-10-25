@@ -1,0 +1,33 @@
+.nature{
+    display: flex;
+}
+.nature__box{
+    &:not(:first-child){
+        margin-left: 20px;
+    }
+}
+.nature__span{
+    display: flex;
+    margin: 12px 0 10px 0;
+}
+.nature__span::before{
+    display: flex;
+    content: " ";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../../image/time-icon.svg);
+}
+.nature__about{
+    margin-left: 8px;
+
+
+}
+.nature__text{
+    max-width: 318px;
+    & p{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+    }
+}

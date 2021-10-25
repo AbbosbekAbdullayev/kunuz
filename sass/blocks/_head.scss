@@ -1,0 +1,41 @@
+.head {
+  max-width: 1337px;
+  padding: 97px 41px 97px 323px;
+  margin-top: 78px;
+  background-image: url("./../image/header1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  border-radius: 33px;
+  &__general {
+    max-width: 985px;
+    display: flex;
+    &__div2 {
+      max-width: 342px;
+      h3 {
+        max-width: 337px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: #1C307A;
+      }
+      p {
+        max-width: 342px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        margin-top: 4px;
+
+      }
+    }
+
+  }
+}
+.link__epple {
+  margin-left: 88px;
+}
+.link__googleplay {
+  margin-left: 20px;
+}
